@@ -43,7 +43,4 @@
         return_content: yes
       register: token_output
 
-    - debug: var=token_output.json
-
-
- 
+    - debug: var=token_output.json 
